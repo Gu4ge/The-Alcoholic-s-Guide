@@ -1,0 +1,7 @@
+1. LAGER         
+2. ALE           
+3. STOUT          
+4. IPA            
+5. WHEAT        
+6. PILSNER        
+7. PORTER         

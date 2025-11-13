@@ -17,45 +17,58 @@ struct Price
     Currency currency_;
 };
 
-enum class BeerType {
-    LAGER,         
-    ALE,           
-    STOUT,          
-    IPA,            
-    WHEAT,         
-    PILSNER,        
-    PORTER         
+enum class BeerType
+{
+    LAGER,
+    ALE,
+    STOUT,
+    IPA,
+    WHEAT,
+    PILSNER,
+    PORTER
 };
 
-enum class Bitterness {
-    LOW,            
-    MEDIUM,         
-    HIGH,           
-    VERY_HIGH       
+enum class Bitterness
+{
+    LOW,
+    MEDIUM,
+    HIGH,
+    VERY_HIGH
 };
 
-enum class Fermentation {
-    BOTTOM,         
-    TOP            
+enum class Fermentation
+{
+    BOTTOM,
+    TOP
 };
 
 enum class Type
 {
     WINE,
-    WHISKEY,
     BEER
 };
 
-enum class Sweetness {
-    DRY, SEMI_DRY, SEMI_SWEET, SWEET
+enum class Sweetness
+{
+    DRY,
+    SEMI_DRY,
+    SEMI_SWEET,
+    SWEET
 };
 
-enum class Aging {
-    NONE, YOUNG, AGED, VINTAGE
+enum class Aging
+{
+    NONE,
+    YOUNG,
+    AGED,
+    VINTAGE
 };
 
-enum class Color{
-    RED, PINK, WHITE
+enum class Color
+{
+    RED,
+    PINK,
+    WHITE
 };
 
 class Base
@@ -67,7 +80,6 @@ public:
           alcohol_content_(alcohol_content), country_origin_(country_origin) {}
 
     virtual ~Base() = default;
-
 
     std::string getName() const;
     Price getPrice() const;

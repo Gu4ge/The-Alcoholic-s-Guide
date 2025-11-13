@@ -1,0 +1,4 @@
+Color
+1. RED
+2. PINK
+3. WHITE

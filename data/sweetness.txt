@@ -1,0 +1,5 @@
+Sweetness
+1. DRY
+2. SEMI_DRY
+3. SEMI_SWEET
+4. SWEET
